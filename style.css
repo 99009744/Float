@@ -2,13 +2,30 @@
 body {
   background-color: lightblue;
 }
-
+content: 
 h1 {
   color: black;
-  text-align: center;
+  text-align: left;
+  margin: 20px
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+  font-family: 'Vibes', cursive;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 25px;
+  margin: 25px
+
+}
+img {
+	margin: 20px;
+	border: 2px solid #021a40
+}
+img.foto1 {
+	float: left;
+}
+img.foto2 {
+	float: right;
+}
+img.foto3 {
+	float: left;
 }
